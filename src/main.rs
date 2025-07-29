@@ -10,6 +10,8 @@ use druid::{Data, Lens};
 use druid::widget::LensWrap;
 use druid::widget::TextBox;
 
+mod gui_init;
+
 #[derive(Clone, Data, Lens)]
 struct TodoList {
     items: Vector<String>,
